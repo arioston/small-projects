@@ -1,0 +1,24 @@
+(lang dune 3.9)
+
+(name birthdayparadox)
+
+(generate_opam_files true)
+
+(source
+ (github arioston/small-projects))
+
+(authors "Arioston Jaerger")
+
+(maintainers "Arioston ")
+
+(license MIT)
+
+(package
+ (name birthdayparadox)
+ (synopsis "It is an adaptation of the Birthday Paradox Simulation by Al Sweigart (al@inventwithpython.com)")
+ (description "The Birthday Paradox, also called the Birthday Problem, is the surprisingly high probability that two people will have the same birthday even in a small group of people. In a group of 70 people, there’s a 99.9 percent chance of two people having a matching birthday")
+ (depends ocaml dune core>=0.15.0 ppx_jane ppx_driver)
+ (tags
+  (topics "to describe" your project)))
+
+; See the complete stanza docs at https://dune.readthedocs.io/en/stable/dune-files.html#dune-project
